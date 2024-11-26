@@ -6,6 +6,5 @@
 be = int(input("Melyik számnál kisebb páratlan számoknak összegét szeretnéd látni: "))
 ossz = 0
 for i in range(1, be, 2):
-    if ossz + i < be:
-        ossz = ossz + i
+    ossz = ossz + i
 print(ossz)
